@@ -9,6 +9,7 @@ function getImg(n: number) {
   );
 }
 
+//스크롤로 처리
 function First() {
   return (
     <div className="w-full max-w-[956px] flex gap-2 items-center rounded-2xl overflow-hidden">

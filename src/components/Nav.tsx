@@ -17,6 +17,7 @@ function Nav() {
           <div className="">
             <a className="font-bold">kakaopage</a>
           </div>
+          {/* // 여기서부터 nav */}
           <div className="flex gap-4">
             <a className="" href="">
               추천
@@ -59,6 +60,7 @@ function Nav() {
           </div>
         </div>
       </nav>
+      배열 반복을 통해 짧은 코드로 대체
       <div className="w-full max-w-[956px] flex items-center gap-4 mx-6">
         <CommonBox>지금핫한</CommonBox>
         <CommonBox>실시간 랭킹</CommonBox>

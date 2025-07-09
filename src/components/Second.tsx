@@ -5,6 +5,7 @@ function Second({ n }: { n: number }) {
     return Math.floor(Math.random() * 3);
   });
 
+  // grid로 바꾸기
   return (
     <div className="w-full max-w-[956px] flex gap-2 items-center">
       {Array.from({ length: n }, (_, i) => (
